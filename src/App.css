@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:30%
+
+
+}
+
+/* .App-header {
+
+  
+
+} */
+
+.App-icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:6%
+}
+
+input{
+    font-size:25px;
+    border-radius: 8px;
+}
+
+h3 , h2{
+  font-size: 30px;
+}
+
+p {
+  font-size: 30px;
+
+}
+
