@@ -7,9 +7,10 @@ const ProtectedRoutes = (props) => {
     const nv = useNavigate()
 
     useEffect(() => {
-        if (!sessionStorage.getItem('loginToken')) {
+        if (!localStorage.getItem('loginToken')) {
             nv("/homepage")
         }
+    
 
     }, [])
 
